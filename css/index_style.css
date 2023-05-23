@@ -1,0 +1,26 @@
+body {
+}
+
+.parallax-window {
+    min-height: 1080px;
+    background: rgba(0,0,0,0.5);
+}
+
+.presentacion {
+    position: relative;
+    top:450px;
+    color: var(--white);
+    text-align: center;
+
+}
+
+.presentacion .titulo{
+    font-size: 50px;
+    font-family: "Source Sans Pro Bold",sans-serif;
+}
+
+.presentacion .info{
+    font-size: 25px;
+}
+
+

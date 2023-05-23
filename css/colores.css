@@ -1,0 +1,15 @@
+/*
+MAIN CSS
+
+En este archivo se definiran los colores a modo de paleta
+
+*/
+
+:root {
+    --white: #FFFFFF;
+    --light-gray: #d4d4d4;
+    --dark-gray: #333333;
+    --mint: #89D0C6;
+    --lime: #C8E6C9;
+    --light-blue: #A3D8F4;
+}

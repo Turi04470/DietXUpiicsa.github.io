@@ -1,0 +1,45 @@
+/*
+MAIN CSS
+
+En este archivo se definiran los estilos del header
+
+*/
+
+header {
+    background-color: transparent;
+    width: 100%;
+    position: fixed;
+    color: var(--white);
+}
+
+header div {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.home {
+    font-size: 30px;
+
+}
+
+nav {
+    width: 30%;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--white);
+    font-size: 16px;
+    border: solid white 0.5px;
+    padding:5px 10px;
+    margin: 0 10px;
+    border-radius: 5px;
+}
+
+nav a:hover{
+    background: var(--mint);
+    color: black;
+}
