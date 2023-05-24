@@ -22,12 +22,12 @@ En este archivo se definiran los estilos principales de la aplicaciónlo cuales 
 }
 
 body {
-    background-color: var(--light-gray);
+    background-color: var(--color_background);
     color: var(--dark-gray);
     font-family: 'Source Sans Pro', sans-serif;
 }
 
-
+/*Ocultar la barra del scroll */
 body::-webkit-scrollbar {
     display: none;
 }

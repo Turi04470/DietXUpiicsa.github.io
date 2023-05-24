@@ -50,7 +50,8 @@ Please note, that `<!DOCTYPE html>` on top of your document is required!
 To easily add a parallax effect behind an element, add `data-parallax="scroll"` to the element you want to use, and specify an image with `data-image-src="/path/to/image.jpg"`.
 
 ```html
-<div class="parallax-window" data-parallax="scroll" data-image-src="/path/to/image.jpg"></div>
+
+<div class="parallax-window_1" data-parallax="scroll" data-image-src="/path/to/image.jpg"></div>
 ```
 
 ### Via JavaScript
@@ -58,7 +59,7 @@ To easily add a parallax effect behind an element, add `data-parallax="scroll"` 
 To call the parallax plugin manually, simply select your target element with jQuery and do the following:
 
 ```javascript
-$('.parallax-window').parallax({imageSrc: '/path/to/image.jpg'});
+$('.parallax-window_1').parallax({imageSrc: '/path/to/image.jpg'});
 ```
 
 ### Notes
@@ -68,9 +69,9 @@ What parallax.js will do is create a fixed-position element for each parallax im
 Due to the nature of this implementation, you must ensure that these parallax objects and any layers below them are transparent so that you can see the parallax effect underneath.  Also, if there is no other content in this element, you will need to ensure that it has some fixed dimensions otherwise you won't see anything.
 
 ```css
-.parallax-window {
-	min-height: 400px;
-	background: transparent;
+.parallax-window_1 {
+    min-height: 400px;
+    background: transparent;
 }
 ```
 
@@ -85,11 +86,12 @@ jQuery(window).trigger('resize').trigger('scroll');
 You can use the following syntax to enable complex content for the parallax:
 
 ```html
-<div class="parallax-window">
-  <div class="parallax-slider">
-    <span style="position:absolute; top: 400px; left: 400px;">Some Text</span>
-	<p>Some other Content</p>
-  </div>
+
+<div class="parallax-window_1">
+    <div class="parallax-slider">
+        <span style="position:absolute; top: 400px; left: 400px;">Some Text</span>
+        <p>Some other Content</p>
+    </div>
 </div>
 ```
 Please note, that the div with class "parallax-slider" is essential here.
@@ -106,10 +108,13 @@ $('.parallax-window').parallax({
 This also makes it possible to use responsive images in the slider:
 
 ```html
-<div class="parallax-window">
-  <div class="parallax-slider">
-    <img src="/path/to/image.jpg" srcset="/path/to/image-400px.jpg 400w, /path/to/image-800px.jpg 800w, /path/to/image-1200px.jpg 1200w" sizes="100vw">
-  </div>
+
+<div class="parallax-window_1">
+    <div class="parallax-slider">
+        <img src="/path/to/image.jpg"
+             srcset="/path/to/image-400px.jpg 400w, /path/to/image-800px.jpg 800w, /path/to/image-1200px.jpg 1200w"
+             sizes="100vw">
+    </div>
 </div>
 ```
 

@@ -1,0 +1,99 @@
+.form_in_center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.box {
+    background-color: var(--white);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: var(--redondeado);
+    padding: 5px;
+}
+
+
+/*
+■ Formularios
+*/
+
+.form_clasic{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+
+}
+
+
+
+
+.form_clasic input{
+    border: none;
+    border-bottom: 0.5px solid var(--dark-gray);
+    outline: none;
+    margin-bottom: 10px;
+}
+
+.form_clasic input[type="submit"] {
+    margin-top:20px;
+    border-radius: var(--redondeado);
+    background-color: var(--dark_mint);
+    color: var(--white);
+    border: solid 1px var(--dark_mint);
+    transition:box-shadow 0.5s ;
+}
+
+.form_clasic input[type="submit"]:hover {
+
+    box-shadow: 0 0 10px var(--mint), 0 0 20px var(--mint), 0 0 30px var(--mint);
+}
+
+.form_clasic label{
+    font-size: 12px;
+}
+
+
+/*Para cuando tienes iconos*/
+.input-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-with-icon {
+    padding-right: 40px;
+}
+
+.material-icons {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+
+
+
+/*Tamaño para login y sig in*/
+.form_in_center .form_clasic{
+    width: 400px;
+}
+
+.form_in_center .form_clasic input{
+    height: 35px;
+    font-size: 16px;
+}
+
+.form_in_center .form_clasic input[type="submit"]{
+    height: 40px;
+}
+
+/*---------------------------------------*/
+/*Tamaño para pop ups*/
+.form_pop_up .form_clasic input{
+    height: 20px;
+}
+
+

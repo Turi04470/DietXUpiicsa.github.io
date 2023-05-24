@@ -1,11 +1,20 @@
-body {
+/*
+■ Primera seccion
+*/
+
+
+/*Tamaño del primer parallax*/
+.parallax-window_1{
+    min-height: 1080px;
 }
 
-.parallax-window {
-    min-height: 1080px;
+/*Oscurecer un poco la imagen principal*/
+.overlay{
     background: rgba(0,0,0,0.5);
 }
 
+
+/*Caja central del home page*/
 .presentacion {
     position: relative;
     top:450px;
@@ -21,6 +30,14 @@ body {
 
 .presentacion .info{
     font-size: 25px;
+}
+
+/*
+■ Segunda seccion
+*/
+
+section{
+    background-color: var(--white);
 }
 
 
