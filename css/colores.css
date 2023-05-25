@@ -7,12 +7,17 @@ En este archivo se definiran los colores a modo de paleta
 
 :root {
     --white: #FFFFFF;
-    --color_background: #d4d4d4;
-    --dark-gray: #333333;
-    --mint: #89D0C6;
-    --dark_mint: #3a6458;
-    --lime: #C8E6C9;
-    --light-blue: #A3D8F4;
+    --color_background_1: #2a2a2a;
+    --color_background_2: #3b3b3b;
+    --color_font: #e3e3e3;
+    --main_color_1: #89D0C6;
+    --main_color_2: #3a6458;
+    --secondary_color_1: #C8E6C9;
+    --secondary_color_2: #A3D8F4;
 
     --redondeado:5px;
 }
+
+
+/*
+

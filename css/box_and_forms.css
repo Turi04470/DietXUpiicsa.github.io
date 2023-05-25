@@ -1,15 +1,15 @@
-.form_in_center{
+.form_in_center {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 90vh;
 }
 
 .box {
-    background-color: var(--white);
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    background-color: var(--color_background_1);
     border-radius: var(--redondeado);
+    box-shadow: 0 0 10px black;
     padding: 5px;
 }
 
@@ -18,7 +18,7 @@
 ■ Formularios
 */
 
-.form_clasic{
+.form_clasic {
     display: flex;
     flex-direction: column;
     margin: 10px;
@@ -26,30 +26,35 @@
 }
 
 
-
-
-.form_clasic input{
+.form_clasic input {
     border: none;
-    border-bottom: 0.5px solid var(--dark-gray);
+    border-bottom: 0.5px solid var(--color_font);
     outline: none;
     margin-bottom: 10px;
+    background-color: var(--color_background_1);
+    color: var(--color_font);
+    font-size: 14px;
+}
+
+.form_clasic input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 1000px var(--color_background_1) inset; /* Establecer el color de fondo deseado */
+    -webkit-text-fill-color: var(--color_font); /* Establecer el color de texto deseado */
 }
 
 .form_clasic input[type="submit"] {
-    margin-top:20px;
+    margin-top: 20px;
     border-radius: var(--redondeado);
-    background-color: var(--dark_mint);
-    color: var(--white);
-    border: solid 1px var(--dark_mint);
-    transition:box-shadow 0.5s ;
+    background-color: var(--main_color_1);
+    border: solid 1px var(--main_color_1);
+    transition: box-shadow 0.5s;
 }
 
 .form_clasic input[type="submit"]:hover {
 
-    box-shadow: 0 0 10px var(--mint), 0 0 20px var(--mint), 0 0 30px var(--mint);
+    box-shadow: 0 0 10px var(--main_color_1);
 }
 
-.form_clasic label{
+.form_clasic label {
     font-size: 12px;
 }
 
@@ -61,39 +66,80 @@
     flex-direction: column;
 }
 
-.input-with-icon {
+.input-container .input-with-icon {
     padding-right: 40px;
 }
 
-.material-icons {
+.input-container .material-icons {
     position: absolute;
     right: 10px;
     top: 50%;
     transform: translateY(-50%);
+    font-size: 20px; /*Tamaño de los iconos*/
 }
-
-
-
 
 
 /*Tamaño para login y sig in*/
-.form_in_center .form_clasic{
+.form_in_center .form_clasic {
     width: 400px;
 }
 
-.form_in_center .form_clasic input{
+.form_in_center .form_clasic input {
     height: 35px;
     font-size: 16px;
 }
 
-.form_in_center .form_clasic input[type="submit"]{
+.form_in_center .form_clasic input[type="submit"] {
     height: 40px;
 }
 
 /*---------------------------------------*/
 /*Tamaño para pop ups*/
-.form_pop_up .form_clasic input{
+.form_pop_up .form_clasic input {
     height: 20px;
+}
+
+
+/*
+■ Botonoes
+
+
+
+*/
+
+.button_style_1 {
+    height: 25px;
+    border-radius: var(--redondeado);
+    border: none;
+    background-color: var(--secondary_color_1);
+    transition: box-shadow 0.5s;
+}
+
+
+/*Caracteristicas:
+relleno,con ilumionacion
+*/
+.button_style_1:hover {
+    box-shadow: 0 0 10px var(--secondary_color_2);
+}
+
+
+/*
+Caracteristicas
+
+sin relleno, con borde e iluminacion negra
+*/
+.button_style_3 {
+    border-radius: 50px;
+    border: solid 1px var(--color_background_1);
+    height: 20px;
+    background-color: transparent;
+    color: var(--color_font);
+    transition: box-sadow 0.5s;
+}
+
+.button_style_3:hover {
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.3);
 }
 
 

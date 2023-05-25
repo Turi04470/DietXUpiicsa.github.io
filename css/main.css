@@ -17,13 +17,18 @@ En este archivo se definiran los estilos principales de la aplicaciónlo cuales 
     src: url('../Fonts/Source_Sans_Pro/SourceSansPro-Bold.ttf') format('truetype');
 }
 
+@font-face {
+    font-family: 'Source Sans Pro Light';
+    src: url('../Fonts/Source_Sans_Pro/SourceSansPro-Light.ttf') format('truetype');
+}
+
 * {
     margin: 0;
 }
 
 body {
-    background-color: var(--color_background);
-    color: var(--dark-gray);
+    background-color: var(--color_background_2);
+    color: var(--color_font);
     font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -45,7 +50,7 @@ body::-webkit-scrollbar {
 
 /* Ponemos un color de fondo y redondeamos las esquinas del thumb */
 .scroll::-webkit-scrollbar-thumb {
-    background: var(--mint);
+    background: var(--main_color_1);
     border-radius: 4px;
 }
 
