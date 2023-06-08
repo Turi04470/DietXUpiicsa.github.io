@@ -4,31 +4,31 @@
 
 
 /*Tamaño del primer parallax*/
-.parallax-window_1{
+.parallax-window_1 {
     min-height: 1080px;
 }
 
 /*Oscurecer un poco la imagen principal*/
-.overlay{
-    background: rgba(0,0,0,0.5);
+.overlay {
+    background: rgba(0, 0, 0, 0.5);
 }
 
 
 /*Caja central del home page*/
 .presentacion {
     position: relative;
-    top:450px;
+    top: 450px;
     color: var(--white);
     text-align: center;
 
 }
 
-.presentacion .titulo{
+.presentacion .titulo {
     font-size: 50px;
-    font-family: "Source Sans Pro Bold",sans-serif;
+    font-family: "Source Sans Pro Bold", sans-serif;
 }
 
-.presentacion .info{
+.presentacion .info {
     font-size: 25px;
 }
 
@@ -36,8 +36,45 @@
 ■ Segunda seccion
 */
 
-section{
+section {
     background-color: var(--color_background_1);
+
 }
+
+#seccion2 {
+    height: 100px;
+    display: flex;
+
+}
+
+#seccion2 nav {
+    margin: auto;
+    position: relative;
+}
+
+#seccion2 nav a {
+    text-decoration: none;
+    color: var(--color_font);
+    padding: 7px 10px;
+}
+
+#seccion2 nav a::before {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(to right, var(--secondary_color_1), var(--secondary_color_2));
+    z-index: 1;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.5s ease-in-out;
+}
+
+#seccion2 nav a:hover::before {
+    transform: scaleX(1);
+}
+
 
 

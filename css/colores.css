@@ -10,6 +10,23 @@ En este archivo se definiran los colores a modo de paleta
     --color_background_1: #2a2a2a;
     --color_background_2: #3b3b3b;
     --color_font: #e3e3e3;
+    --main_color_1: #4CB8C4;
+    --main_color_2: #3CD3AD;
+    --secondary_color_1: #0044FF;
+    --secondary_color_2: #00AEE0;
+    --secondary_color_3:#4E4376;
+    --secondary_color_4:#2B5876;
+    --secondary_color_5:#FF0000;
+    --secondary_color_6:#840101;
+
+    --redondeado:5px;
+}
+/*
+:root {
+    --white: #FFFFFF;
+    --color_background_1: #2a2a2a;
+    --color_background_2: #3b3b3b;
+    --color_font: #e3e3e3;
     --main_color_1: #89D0C6;
     --main_color_2: #3a6458;
     --secondary_color_1: #C8E6C9;
@@ -18,6 +35,9 @@ En este archivo se definiran los colores a modo de paleta
     --redondeado:5px;
 }
 
+*/
 
-/*
+
+
+
 
