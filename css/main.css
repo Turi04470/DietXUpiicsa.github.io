@@ -32,37 +32,35 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
-/*Ocultar la barra del scroll */
-body::-webkit-scrollbar {
-    display: none;
-}
+
 
 
 /*-----------
 ■ Scroll
 -----------*/
 .scroll::-webkit-scrollbar {
-    width: 8px; /* Tamaño del scroll en vertical */
-    height: 8px; /* Tamaño del scroll en horizontal */
-
-
+    width: 3px; /* Tamaño del scroll en vertical */
+    height: 3px; /* Tamaño del scroll en horizontal */
 }
+
+
 
 /* Ponemos un color de fondo y redondeamos las esquinas del thumb */
 .scroll::-webkit-scrollbar-thumb {
-    background: var(--main_color_1);
-    border-radius: 4px;
+    background: linear-gradient(to bottom, var(--secondary_color_3), var(--secondary_color_4));
+    border-radius: var(--redondeado);
+
 }
 
 /* Cambiamos el fondo y agregamos una sombra cuando esté en hover */
 .scroll::-webkit-scrollbar-thumb:hover {
-    background: black;
+    background: linear-gradient(to bottom, var(--secondary_color_1), var(--secondary_color_2));
     box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 /* Cambiamos el fondo cuando esté en active */
 .scroll::-webkit-scrollbar-thumb:active {
-    background-color: var(--lime);
+
 }
 
 /* Ponemos un color de fondo y redondeamos las esquinas del track */
@@ -74,7 +72,7 @@ body::-webkit-scrollbar {
 /* Cambiamos el fondo cuando esté en active o hover */
 .scroll::-webkit-scrollbar-track:hover,
 .scroll::-webkit-scrollbar-track:active {
-    background: #d4d4d4;
+
 }
 
 
