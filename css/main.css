@@ -47,14 +47,14 @@ body {
 
 /* Ponemos un color de fondo y redondeamos las esquinas del thumb */
 .scroll::-webkit-scrollbar-thumb {
-    background: linear-gradient(to bottom, var(--secondary_color_3), var(--secondary_color_4));
+    background: linear-gradient(to bottom, var(--color_5), var(--color_6));
     border-radius: var(--redondeado);
 
 }
 
 /* Cambiamos el fondo y agregamos una sombra cuando esté en hover */
 .scroll::-webkit-scrollbar-thumb:hover {
-    background: linear-gradient(to bottom, var(--secondary_color_1), var(--secondary_color_2));
+    background: linear-gradient(to bottom, var(--color_3), var(--color_4));
     box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
 }
 

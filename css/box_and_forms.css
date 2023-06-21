@@ -9,7 +9,7 @@
 .box {
     background-color: var(--color_background_1);
     border-radius: var(--redondeado);
-    box-shadow: 0 0 5px 1px rgba(0,0,0,80%);
+    box-shadow: 0 0 5px 1px rgba(0, 0, 0, 80%);
     padding: 5px;
 }
 
@@ -44,14 +44,14 @@
 .form_clasic input[type="submit"] {
     margin-top: 20px;
     border-radius: var(--redondeado);
-    background-color: var(--main_color_1);
-    border: solid 1px var(--main_color_1);
+    background: linear-gradient(to right, var(--color_5), var(--color_6));
+    border: none;
     transition: box-shadow 0.5s;
 }
 
 .form_clasic input[type="submit"]:hover {
 
-    box-shadow: 0 0 10px var(--main_color_1);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5), 0 0 10px 10px transparent inset;
 }
 
 .form_clasic label {
@@ -100,27 +100,25 @@
 }
 
 
-/*
+/*-----------------
 ■ Botonoes
 
-
-
-*/
+-------------------*/
 
 .button_style_1 {
     height: 25px;
     border-radius: var(--redondeado);
     border: none;
-    background-color: var(--secondary_color_1);
+    background: linear-gradient(to right, var(--color_1), var(--color_2));
     transition: box-shadow 0.5s;
 }
 
 
 /*Caracteristicas:
-relleno,con ilumionacion
+relleno,con sombra
 */
 .button_style_1:hover {
-    box-shadow: 0 0 10px var(--secondary_color_2);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5), 0 0 10px 10px transparent inset;
 }
 
 

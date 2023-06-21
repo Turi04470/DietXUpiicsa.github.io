@@ -70,7 +70,7 @@ section {
     left: 0;
     width: 100%;
     height: 4px;
-    background: linear-gradient(to right, var(--secondary_color_1), var(--secondary_color_2));
+    background: linear-gradient(to right, var(--color_3), var(--color_4));
     z-index: 1;
     transform: scaleX(0);
     transform-origin: left;

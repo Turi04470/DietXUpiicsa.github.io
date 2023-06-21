@@ -10,14 +10,14 @@ En este archivo se definiran los colores a modo de paleta
     --color_background_1: #2a2a2a;
     --color_background_2: #3b3b3b;
     --color_font: #e3e3e3;
-    --main_color_1: #4CB8C4;
-    --main_color_2: #3CD3AD;
-    --secondary_color_1: #0044FF;
-    --secondary_color_2: #00AEE0;
-    --secondary_color_3:#4E4376;
-    --secondary_color_4:#2B5876;
-    --secondary_color_5:#FF0000;
-    --secondary_color_6:#840101;
+    --color_1: #89D0C6;
+    --color_2: #3CD3AD;
+    --color_3: #0044FF;
+    --color_4: #00AEE0;
+    --color_5:#4E4376;
+    --color_6:#2B5876;
+    --color_7:#FF0000;
+    --color_8:#840101;
 
     --redondeado:5px;
 }

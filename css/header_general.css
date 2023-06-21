@@ -46,7 +46,7 @@ header nav a::before {
     left: -1px;
     right: -1px;
 
-    background: linear-gradient(to right, var(--secondary_color_5), var(--secondary_color_4));
+    background: linear-gradient(to right, var(--color_7), var(--color_6));
     z-index: -1;
     opacity: 0;
     height: 1px;
