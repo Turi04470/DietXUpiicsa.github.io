@@ -16,6 +16,7 @@
     <!-- Iconos de google -->
     <link rel="stylesheet"
           href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,1,0"/>
+    <script src="../JS/jquery.js"></script>
 
 </head>
 <body class="scroll">
@@ -35,9 +36,21 @@
     </div>
 </header>
 
-<section class="cuerpo">
+<div class="filtro box">
+    <div>Filtros</div>
 
-    <!-- Inicia Plan -->
+
+    <select id="miSelect">
+        <option value="1">Sin filtro</option>
+        <option value="2">Favoritos</option>
+        <option value="3">Ocultos</option>
+        <option value="4">Siguiendo</option>
+    </select>
+</div>
+
+<section class="cuerpo" id="cuerpo">
+
+    <!-- Inicia Plan
     <div class="plan_contenedor">
         <div class="icons">
             <span class="material-symbols-rounded follow">person_add</span>
@@ -49,54 +62,21 @@
 
         <div class="box plan">
             <div class="nombre">nombre plan</div>
-            <div class="descripcion scroll">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusamus
-                asperiores
-                aspernatur delectus deserunt doloribus, ea facilis fugit perferendis quas quasi quibusdam recusandae
-                rerum sunt voluptatum! Commodi delectus laborum nemo.
-
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur cum dolorem hic ipsum nulla odio
-                tempora voluptatibus. Adipisci at laborum minima pariatur quibusdam recusandae repellat rerum, sapiente
-                sequi similique veritatis!
-
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid assumenda harum labore laborum
-                praesentium sit velit! Ad facere impedit in, ipsum laudantium molestias quisquam quo reprehenderit,
-                sequi similique, tempora voluptates.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto at aut corporis cumque debitis,
-                distinctio eveniet id impedit ipsam libero magnam molestias nobis numquam officiis rerum sequi
-                temporibus veniam voluptas.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, architecto aspernatur consequatur
-                cupiditate dicta dolorem eligendi et exercitationem iusto natus necessitatibus, obcaecati omnis
-                perspiciatis quod ratione reprehenderit sed vitae voluptas.
+            <div class="descripcion scroll">Lorem
             </div>
         </div>
 
         <img src="../media/img/fisicoculturista.jpg"/>
     </div>
-    <!-- find del plan -->
+   find del plan -->
 
-    <!-- Inicia Plan -->
-    <div class="plan_contenedor">
-        <div class="icons">
-            <span class="material-symbols-rounded follow">person_add</span>
-            <span class="material-symbols-rounded siguiendo">verified</span>
-            <span class="material-symbols-rounded favorito">favorite</span>
-            <span class="material-symbols-rounded ocultar">block</span>
-            <span class="material-symbols-rounded mostrar">visibility</span>
-        </div>
 
-        <div class="box plan">
-            <div class="nombre">nombre plan</div>
-            <div class="descripcion scroll">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusamus
-                asperiores
-                aspernatur delectus deserunt doloribus, ea facilis fugit perferendis quas quasi quibusdam recusandae
-                rerum sunt voluptatum! Commodi delectus laborum nemo.
-            </div>
-        </div>
-
-        <img src="../media/img/fisicoculturista.jpg"/>
-    </div>
-    <!-- find del plan -->
 </section>
 
+
+<section class="vacio" id="cuerpo_oculto"></section>
+
 </body>
+<script src="../JS/jquery.js"></script>
+<script src="../JS/planes.js"></script>
 </html>
