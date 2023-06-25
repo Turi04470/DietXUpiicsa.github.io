@@ -41,7 +41,7 @@
     -webkit-text-fill-color: var(--color_font); /* Establecer el color de texto deseado */
 }
 
-.form_clasic input[type="submit"] {
+.form_clasic input[type="submit"],input[type="button"] {
     margin-top: 20px;
     border-radius: var(--redondeado);
     background: linear-gradient(to right, var(--color_5), var(--color_6));
@@ -49,10 +49,12 @@
     transition: box-shadow 0.5s;
 }
 
-.form_clasic input[type="submit"]:hover {
+.form_clasic input[type="submit"],input[type="button"]:hover {
 
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5), 0 0 10px 10px transparent inset;
 }
+
+
 
 .form_clasic label {
     font-size: 12px;

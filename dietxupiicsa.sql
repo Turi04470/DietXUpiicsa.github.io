@@ -75,8 +75,7 @@ COMMIT;
 INSERT INTO dietxupiicsa.`login usuario` (nombre, password, email)
 VALUES ('admin', 'admin', 'admin@example.com');
 
-INSERT INTO dietxupiicsa.`login usuario` (nombre, password, email)
-VALUES ('turi', 'turi', 'turi@example.com');
+INSERT INTO dietxupiicsa.`login usuario` (nombre, password, email) VALUES ('turi', 'turi', 'turi@example.com');
 
 
 
